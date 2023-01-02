@@ -76,3 +76,15 @@ body {
     background-color: black;
     padding: 10px 70px; 
 }
+@media only screen and (max-width: 768px){
+    .header h1 { 
+        margin-left: 1em;  
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .header h1 { 
+        margin-left: 2em;  
+    }
+}
+
